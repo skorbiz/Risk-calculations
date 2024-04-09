@@ -4,9 +4,12 @@ Odds based on our special variant of risk. The variant includes
 - Dynamic reinforcements (Any battle can be reinforced at any time from both attacker or defender). 
 - Defender gets to decide whether to use 1 or 2 defence dice after seeing the attach dice.
 
+
+
 ```
 ❯ python3 risk.py
-Data as losses for defender
+- Data as losses for defender
+- Assumes attacker always attacks with 3 dice
 attack_roll | n_rolls | probability of roll | accumulated_probability | lose against i dice | 0 loses | 1 loses | 2 loses v | rolls 
 ----------- | ------- | ------------------- | ----------------------- | ------------------- | ------- | ------- | --------- | ------
 (1, 1)      |       1 |                 0.5 |                     0.5 |                 0.0 |   100.0 |     0.0 |       0.0 |
