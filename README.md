@@ -32,3 +32,7 @@ attack_roll | n_rolls | probability of roll | accumulated_probability | lose aga
 (6, 6)      |      16 |                 7.4 |                   100.0 |                83.3 |     2.8 |    27.8 |      69.4 |
 ```
 
+# Todo
+- Calculate odds for 1 defence dice based on if defender always use 3 attach dice.
+
+
